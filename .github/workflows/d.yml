@@ -12,9 +12,8 @@ on:
 
 jobs:
   start: 
-    script:
-      - echo "start"
-      
+    - uses: echo "start"
+
   build:
 
     runs-on: ubuntu-latest
