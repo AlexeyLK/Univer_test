@@ -11,9 +11,6 @@ on:
     branches: [ main ]
 
 jobs:
-  start: 
-    - uses: echo "start"
-
   build:
 
     runs-on: ubuntu-latest
