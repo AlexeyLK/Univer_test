@@ -7,5 +7,5 @@
 - `mkdir dirname`
 - `cd dirname`
 - `git clone https://github.com/AlexeyLK/Univer_test`
-- `dmd -unittest calc.d`
+- `dmd -unittest -main calc.d`
 - `./calc`
