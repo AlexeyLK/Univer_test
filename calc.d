@@ -90,7 +90,7 @@ auto calc(string a_s, string op = " ", string b_s = " ", string er_s = " ") {
 }
 
 unittest {
-    writeln("Negative test running .....");
+    writeln("Negative test running ...");
     assert(calc("2", "*", "3", "4") == "Ошибка: Ни одна операция не поддерживает более 3-х входящих символов", "Error 1");   // 1
     assert(calc("55") == "Ошибка: Ни одна операция не поддерживает менее 2-х входящих символов", "Error 2");                 // 2
     assert(calc("5", "!", "5") == "Ошибка: ! не поддерживает три символа", "Error 3");                                     // 3
