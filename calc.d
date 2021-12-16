@@ -101,7 +101,7 @@ unittest {
 }
 
 unittest {
-    writeln("Positive test running ...");
+    writeln("Positive test running ....");
     assert(calc("67", "+", "34") == "101", "Error 8");   // 8
     assert(calc("125", "-", "3") == "122", "Error 9");   // 9
     assert(calc("5", "*", "71") == "355", "Error 10");   // 10
