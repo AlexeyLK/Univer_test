@@ -3,12 +3,8 @@ name: D
 on:
   push:
     branches: [ main ]
-  commit:
-    branches: [ main ]
 
 jobs:
-  start: 
-  - echo "start"
 
   build:
 
